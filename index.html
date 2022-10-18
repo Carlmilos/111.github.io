@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1" name="viewport" >
     <title>FSG - Links</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <link rel = "stylesheet" href="fsglinktr.css" />
+    <script type="text/javascript">
+        $('body').on('click touchstart', function () {
+                    const videoElement = document.getElementById('bg');
+                    if (!videoElement.playing) {
+                        videoElement.play();
+                    }
+            });
+    </script>
 </head>
 <body>
     <video autoplay muted loop playsinline>
         <source src="bgvideo.mp4" type="video/mp4" id="bg">
     </video>
+    
     <script>
         var video = document.getElementById('bg');
 
@@ -60,4 +70,5 @@
     </ul>   
 </main>
 </body>
+
 </html>
