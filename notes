@@ -1,0 +1,9 @@
+    <script type="text/javascript">
+        $('body').on('click touchstart', function () {
+                    const videoElement = document.getElementById('bg');
+                    if (!videoElement.playing) {
+                        videoElement.play();
+                    }
+            });
+    </script>
+    
