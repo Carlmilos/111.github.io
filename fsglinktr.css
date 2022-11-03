@@ -43,14 +43,15 @@ header > h2{
 }
 header > img {
     z-index: 1;
-    width: 22em;
-    height: 14em;
+    width: 18em;
+    height: 10em;
 }
 ul{
     position: relative;
     box-sizing: border-box;
     list-style: none;
     margin: 0 auto;
+    margin-top: 2em;
     padding: 1.5em;
     bottom: 2em;
 }
